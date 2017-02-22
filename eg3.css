@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+ul, li{
+	list-style:none;
+}
+
+#smallPhotos{
+	width:620px;
+	margin:10px 0;
+}
+
+#smallPhotosList{
+	float:left;
+	margin:0 auto;
+	padding:0;
+	width:580px;
+}
+
+#smallPhotosList li{
+	float:left;
+	margin-left:10px;
+	_margin-left:8px;   /*这是专门针对IE6间隙太大而设置*/
+}
+
+#smallPhotosList img{
+	border:2px solid #000;
+	cursor:pointer;
+}
+
+#prve{
+	display:inline-block;
+	float:left;
+	background:url(eg3img/icon_prve.jpg);
+	height:40px;
+	width:20px;
+	cursor:pointer;
+}
+
+#next{
+	display:inline-block;
+	float:right;
+	background:url(eg3img/icon_next.jpg);
+	width:20px;
+	height:40px;
+	cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
